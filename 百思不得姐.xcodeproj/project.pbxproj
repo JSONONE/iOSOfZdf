@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1811CD3C1CA919C30034960C /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811CD3B1CA919C30034960C /* Foundation+Log.m */; };
+		1811CD3F1CA91EA00034960C /* ZDFRecommendType.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811CD3E1CA91EA00034960C /* ZDFRecommendType.m */; };
+		1811CD431CA9229E0034960C /* ZDFRecommendCategoriesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811CD411CA9229E0034960C /* ZDFRecommendCategoriesCell.m */; };
+		1811CD441CA9229E0034960C /* ZDFRecommendCategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811CD421CA9229E0034960C /* ZDFRecommendCategoriesCell.xib */; };
+		1811CD481CA935A40034960C /* ZDFUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811CD461CA935A40034960C /* ZDFUserCell.m */; };
+		1811CD491CA935A40034960C /* ZDFUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1811CD471CA935A40034960C /* ZDFUserCell.xib */; };
+		1811CD4C1CA938B00034960C /* ZDFRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811CD4B1CA938B00034960C /* ZDFRecommendUser.m */; };
+		1813B4261CAF660C00AF69EA /* ZDFPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4251CAF660C00AF69EA /* ZDFPushGuideView.m */; };
+		1813B4281CAF662600AF69EA /* ZDFPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1813B4271CAF662600AF69EA /* ZDFPushGuideView.xib */; };
+		1813B42E1CAF8A6800AF69EA /* ZDFAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B42D1CAF8A6800AF69EA /* ZDFAllViewController.m */; };
+		1813B4311CAF8A8100AF69EA /* ZDFVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4301CAF8A8100AF69EA /* ZDFVideoViewController.m */; };
+		1813B4341CAF8A9600AF69EA /* ZDFVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4331CAF8A9600AF69EA /* ZDFVoiceViewController.m */; };
+		1813B4371CAF8AA700AF69EA /* ZDFPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4361CAF8AA700AF69EA /* ZDFPictureViewController.m */; };
+		1813B43A1CAF8AB400AF69EA /* ZDFWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4391CAF8AB400AF69EA /* ZDFWorkViewController.m */; };
+		1813B43D1CAFAB1C00AF69EA /* ZDFTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B43C1CAFAB1C00AF69EA /* ZDFTopic.m */; };
+		1813B4401CAFB87F00AF69EA /* ZDFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B43F1CAFB87F00AF69EA /* ZDFConst.m */; };
+		1813B4441CAFBC8E00AF69EA /* ZDFTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4421CAFBC8E00AF69EA /* ZDFTopicCell.m */; };
+		1813B4451CAFBC8E00AF69EA /* ZDFTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1813B4431CAFBC8E00AF69EA /* ZDFTopicCell.xib */; };
+		18404CF11CAE75940049D579 /* ZDFCustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 18404CF01CAE75940049D579 /* ZDFCustomTextField.m */; };
+		18524EED1CAD2B150045C502 /* ZDFRecommendTagsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18524EEC1CAD2B150045C502 /* ZDFRecommendTagsController.m */; };
+		18524EF01CAD2D6A0045C502 /* ZDFTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18524EEF1CAD2D6A0045C502 /* ZDFTagModel.m */; };
+		18524EF41CAD2ED20045C502 /* ZDFTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18524EF21CAD2ED20045C502 /* ZDFTagsCell.m */; };
+		18524EF51CAD2ED20045C502 /* ZDFTagsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18524EF31CAD2ED20045C502 /* ZDFTagsCell.xib */; };
+		186DA5DC1CAE35C200262B3D /* ZDFLoginRegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186DA5DA1CAE35C200262B3D /* ZDFLoginRegisterController.m */; };
+		186DA5DD1CAE35C200262B3D /* ZDFLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186DA5DB1CAE35C200262B3D /* ZDFLoginRegisterController.xib */; };
+		186DA5E01CAE459200262B3D /* ZDFVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186DA5DF1CAE459200262B3D /* ZDFVerticalButton.m */; };
+		18A55E951CB38EC200307D37 /* NSDate+ZDFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A55E941CB38EC200307D37 /* NSDate+ZDFExtension.m */; };
+		18BE29FA1CA68002002C1445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BE29F91CA68002002C1445 /* Assets.xcassets */; };
+		18BE2A081CA68002002C1445 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2A071CA68002002C1445 /* _____Tests.m */; };
+		18BE2A131CA68002002C1445 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2A121CA68002002C1445 /* _____UITests.m */; };
+		9698FAE9C2950642896DBE53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE839CB2787C31D81496523 /* libPods.a */; };
+		A1E55D421CA7B7AE008A3EBE /* ZDFEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D1D1CA7B7AE008A3EBE /* ZDFEssenceViewController.m */; };
+		A1E55D431CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D231CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.m */; };
+		A1E55D441CA7B7AE008A3EBE /* ZDFMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D291CA7B7AE008A3EBE /* ZDFMeViewController.m */; };
+		A1E55D451CA7B7AE008A3EBE /* ZDFNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D2F1CA7B7AE008A3EBE /* ZDFNewViewController.m */; };
+		A1E55D461CA7B7AE008A3EBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D341CA7B7AE008A3EBE /* AppDelegate.m */; };
+		A1E55D471CA7B7AE008A3EBE /* UIBarButtonItem+ZDFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D371CA7B7AE008A3EBE /* UIBarButtonItem+ZDFExtension.m */; };
+		A1E55D481CA7B7AE008A3EBE /* UIView+ZDFViewExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D391CA7B7AE008A3EBE /* UIView+ZDFViewExtension.m */; };
+		A1E55D491CA7B7AE008A3EBE /* ZDFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D3C1CA7B7AE008A3EBE /* ZDFTabBarController.m */; };
+		A1E55D4A1CA7B7AE008A3EBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D3D1CA7B7AE008A3EBE /* main.m */; };
+		A1E55D4B1CA7B7AE008A3EBE /* ZDFTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D411CA7B7AE008A3EBE /* ZDFTabBar.m */; };
+		A1E55D511CA7C095008A3EBE /* ZDFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D501CA7C095008A3EBE /* ZDFNavigationController.m */; };
+		A1E55D531CA7D05A008A3EBE /* ZDFFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E55D521CA7D05A008A3EBE /* ZDFFriendTrendsViewController.xib */; };
+		A1E55D571CA7DC54008A3EBE /* ZDFRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D551CA7DC54008A3EBE /* ZDFRecommendController.m */; };
+		A1E55D581CA7DC54008A3EBE /* ZDFRecommendController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E55D561CA7DC54008A3EBE /* ZDFRecommendController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18BE2A041CA68002002C1445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BE29E21CA68001002C1445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BE29E91CA68002002C1445;
+			remoteInfo = "百思不得姐";
+		};
+		18BE2A0F1CA68002002C1445 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18BE29E21CA68001002C1445 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18BE29E91CA68002002C1445;
+			remoteInfo = "百思不得姐";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1811CD3B1CA919C30034960C /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		1811CD3D1CA91EA00034960C /* ZDFRecommendType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFRecommendType.h; sourceTree = "<group>"; };
+		1811CD3E1CA91EA00034960C /* ZDFRecommendType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFRecommendType.m; sourceTree = "<group>"; };
+		1811CD401CA9229E0034960C /* ZDFRecommendCategoriesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFRecommendCategoriesCell.h; sourceTree = "<group>"; };
+		1811CD411CA9229E0034960C /* ZDFRecommendCategoriesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFRecommendCategoriesCell.m; sourceTree = "<group>"; };
+		1811CD421CA9229E0034960C /* ZDFRecommendCategoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFRecommendCategoriesCell.xib; sourceTree = "<group>"; };
+		1811CD451CA935A40034960C /* ZDFUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFUserCell.h; sourceTree = "<group>"; };
+		1811CD461CA935A40034960C /* ZDFUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFUserCell.m; sourceTree = "<group>"; };
+		1811CD471CA935A40034960C /* ZDFUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFUserCell.xib; sourceTree = "<group>"; };
+		1811CD4A1CA938B00034960C /* ZDFRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFRecommendUser.h; sourceTree = "<group>"; };
+		1811CD4B1CA938B00034960C /* ZDFRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFRecommendUser.m; sourceTree = "<group>"; };
+		1813B4241CAF660C00AF69EA /* ZDFPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFPushGuideView.h; sourceTree = "<group>"; };
+		1813B4251CAF660C00AF69EA /* ZDFPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFPushGuideView.m; sourceTree = "<group>"; };
+		1813B4271CAF662600AF69EA /* ZDFPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFPushGuideView.xib; sourceTree = "<group>"; };
+		1813B42C1CAF8A6800AF69EA /* ZDFAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFAllViewController.h; sourceTree = "<group>"; };
+		1813B42D1CAF8A6800AF69EA /* ZDFAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFAllViewController.m; sourceTree = "<group>"; };
+		1813B42F1CAF8A8100AF69EA /* ZDFVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFVideoViewController.h; sourceTree = "<group>"; };
+		1813B4301CAF8A8100AF69EA /* ZDFVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFVideoViewController.m; sourceTree = "<group>"; };
+		1813B4321CAF8A9600AF69EA /* ZDFVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFVoiceViewController.h; sourceTree = "<group>"; };
+		1813B4331CAF8A9600AF69EA /* ZDFVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFVoiceViewController.m; sourceTree = "<group>"; };
+		1813B4351CAF8AA700AF69EA /* ZDFPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFPictureViewController.h; sourceTree = "<group>"; };
+		1813B4361CAF8AA700AF69EA /* ZDFPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFPictureViewController.m; sourceTree = "<group>"; };
+		1813B4381CAF8AB400AF69EA /* ZDFWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFWorkViewController.h; sourceTree = "<group>"; };
+		1813B4391CAF8AB400AF69EA /* ZDFWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFWorkViewController.m; sourceTree = "<group>"; };
+		1813B43B1CAFAB1C00AF69EA /* ZDFTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTopic.h; sourceTree = "<group>"; };
+		1813B43C1CAFAB1C00AF69EA /* ZDFTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFTopic.m; sourceTree = "<group>"; };
+		1813B43E1CAFB87F00AF69EA /* ZDFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFConst.h; sourceTree = "<group>"; };
+		1813B43F1CAFB87F00AF69EA /* ZDFConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFConst.m; sourceTree = "<group>"; };
+		1813B4411CAFBC8E00AF69EA /* ZDFTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTopicCell.h; sourceTree = "<group>"; };
+		1813B4421CAFBC8E00AF69EA /* ZDFTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFTopicCell.m; sourceTree = "<group>"; };
+		1813B4431CAFBC8E00AF69EA /* ZDFTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFTopicCell.xib; sourceTree = "<group>"; };
+		18404CEF1CAE75940049D579 /* ZDFCustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFCustomTextField.h; sourceTree = "<group>"; };
+		18404CF01CAE75940049D579 /* ZDFCustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFCustomTextField.m; sourceTree = "<group>"; };
+		18524EEB1CAD2B150045C502 /* ZDFRecommendTagsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFRecommendTagsController.h; sourceTree = "<group>"; };
+		18524EEC1CAD2B150045C502 /* ZDFRecommendTagsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFRecommendTagsController.m; sourceTree = "<group>"; };
+		18524EEE1CAD2D6A0045C502 /* ZDFTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTagModel.h; sourceTree = "<group>"; };
+		18524EEF1CAD2D6A0045C502 /* ZDFTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFTagModel.m; sourceTree = "<group>"; };
+		18524EF11CAD2ED20045C502 /* ZDFTagsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTagsCell.h; sourceTree = "<group>"; };
+		18524EF21CAD2ED20045C502 /* ZDFTagsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFTagsCell.m; sourceTree = "<group>"; };
+		18524EF31CAD2ED20045C502 /* ZDFTagsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFTagsCell.xib; sourceTree = "<group>"; };
+		186DA5D91CAE35C200262B3D /* ZDFLoginRegisterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFLoginRegisterController.h; sourceTree = "<group>"; };
+		186DA5DA1CAE35C200262B3D /* ZDFLoginRegisterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFLoginRegisterController.m; sourceTree = "<group>"; };
+		186DA5DB1CAE35C200262B3D /* ZDFLoginRegisterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFLoginRegisterController.xib; sourceTree = "<group>"; };
+		186DA5DE1CAE459200262B3D /* ZDFVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFVerticalButton.h; sourceTree = "<group>"; };
+		186DA5DF1CAE459200262B3D /* ZDFVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFVerticalButton.m; sourceTree = "<group>"; };
+		18A55E931CB38EC200307D37 /* NSDate+ZDFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZDFExtension.h"; sourceTree = "<group>"; };
+		18A55E941CB38EC200307D37 /* NSDate+ZDFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZDFExtension.m"; sourceTree = "<group>"; };
+		18BE29EA1CA68002002C1445 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BE29F91CA68002002C1445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18BE29FE1CA68002002C1445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BE2A031CA68002002C1445 /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BE2A071CA68002002C1445 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		18BE2A091CA68002002C1445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BE2A0E1CA68002002C1445 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18BE2A121CA68002002C1445 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		18BE2A141CA68002002C1445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E55D1C1CA7B7AE008A3EBE /* ZDFEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFEssenceViewController.h; sourceTree = "<group>"; };
+		A1E55D1D1CA7B7AE008A3EBE /* ZDFEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFEssenceViewController.m; sourceTree = "<group>"; };
+		A1E55D221CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFFriendTrendsViewController.h; sourceTree = "<group>"; };
+		A1E55D231CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFFriendTrendsViewController.m; sourceTree = "<group>"; };
+		A1E55D281CA7B7AE008A3EBE /* ZDFMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFMeViewController.h; sourceTree = "<group>"; };
+		A1E55D291CA7B7AE008A3EBE /* ZDFMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFMeViewController.m; sourceTree = "<group>"; };
+		A1E55D2E1CA7B7AE008A3EBE /* ZDFNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFNewViewController.h; sourceTree = "<group>"; };
+		A1E55D2F1CA7B7AE008A3EBE /* ZDFNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFNewViewController.m; sourceTree = "<group>"; };
+		A1E55D331CA7B7AE008A3EBE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1E55D341CA7B7AE008A3EBE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1E55D361CA7B7AE008A3EBE /* UIBarButtonItem+ZDFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZDFExtension.h"; sourceTree = "<group>"; };
+		A1E55D371CA7B7AE008A3EBE /* UIBarButtonItem+ZDFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZDFExtension.m"; sourceTree = "<group>"; };
+		A1E55D381CA7B7AE008A3EBE /* UIView+ZDFViewExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZDFViewExtension.h"; sourceTree = "<group>"; };
+		A1E55D391CA7B7AE008A3EBE /* UIView+ZDFViewExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZDFViewExtension.m"; sourceTree = "<group>"; };
+		A1E55D3B1CA7B7AE008A3EBE /* ZDFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTabBarController.h; sourceTree = "<group>"; };
+		A1E55D3C1CA7B7AE008A3EBE /* ZDFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFTabBarController.m; sourceTree = "<group>"; };
+		A1E55D3D1CA7B7AE008A3EBE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E55D3E1CA7B7AE008A3EBE /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A1E55D401CA7B7AE008A3EBE /* ZDFTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTabBar.h; sourceTree = "<group>"; };
+		A1E55D411CA7B7AE008A3EBE /* ZDFTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFTabBar.m; sourceTree = "<group>"; };
+		A1E55D4F1CA7C095008A3EBE /* ZDFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFNavigationController.h; sourceTree = "<group>"; };
+		A1E55D501CA7C095008A3EBE /* ZDFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFNavigationController.m; sourceTree = "<group>"; };
+		A1E55D521CA7D05A008A3EBE /* ZDFFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		A1E55D541CA7DC54008A3EBE /* ZDFRecommendController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFRecommendController.h; sourceTree = "<group>"; };
+		A1E55D551CA7DC54008A3EBE /* ZDFRecommendController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFRecommendController.m; sourceTree = "<group>"; };
+		A1E55D561CA7DC54008A3EBE /* ZDFRecommendController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFRecommendController.xib; sourceTree = "<group>"; };
+		AC8511578C6A105322288751 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E405697EE43F6B2AF67E7FA9 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		EDE839CB2787C31D81496523 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18BE29E71CA68002002C1445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9698FAE9C2950642896DBE53 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE2A001CA68002002C1445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE2A0B1CA68002002C1445 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18BE29E11CA68001002C1445 = {
+			isa = PBXGroup;
+			children = (
+				18BE29EC1CA68002002C1445 /* 百思不得姐 */,
+				18BE2A061CA68002002C1445 /* 百思不得姐Tests */,
+				18BE2A111CA68002002C1445 /* 百思不得姐UITests */,
+				18BE29EB1CA68002002C1445 /* Products */,
+				D18B2C8067D19CADE1B6006A /* Pods */,
+				91F3C9082DB0676957656FAB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18BE29EB1CA68002002C1445 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BE29EA1CA68002002C1445 /* 百思不得姐.app */,
+				18BE2A031CA68002002C1445 /* 百思不得姐Tests.xctest */,
+				18BE2A0E1CA68002002C1445 /* 百思不得姐UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18BE29EC1CA68002002C1445 /* 百思不得姐 */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D191CA7B7AE008A3EBE /* Classes */,
+				18BE29ED1CA68002002C1445 /* Supporting Files */,
+			);
+			path = "百思不得姐";
+			sourceTree = "<group>";
+		};
+		18BE29ED1CA68002002C1445 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18BE29F91CA68002002C1445 /* Assets.xcassets */,
+				18BE29FE1CA68002002C1445 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18BE2A061CA68002002C1445 /* 百思不得姐Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2A071CA68002002C1445 /* _____Tests.m */,
+				18BE2A091CA68002002C1445 /* Info.plist */,
+			);
+			path = "百思不得姐Tests";
+			sourceTree = "<group>";
+		};
+		18BE2A111CA68002002C1445 /* 百思不得姐UITests */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2A121CA68002002C1445 /* _____UITests.m */,
+				18BE2A141CA68002002C1445 /* Info.plist */,
+			);
+			path = "百思不得姐UITests";
+			sourceTree = "<group>";
+		};
+		91F3C9082DB0676957656FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDE839CB2787C31D81496523 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1E55D191CA7B7AE008A3EBE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D1A1CA7B7AE008A3EBE /* Essence-精华 */,
+				A1E55D2C1CA7B7AE008A3EBE /* New-新帖 */,
+				A1E55D201CA7B7AE008A3EBE /* FriendTrends-关注 */,
+				A1E55D261CA7B7AE008A3EBE /* Me-我 */,
+				A1E55D321CA7B7AE008A3EBE /* Other-其他 */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A1E55D1A1CA7B7AE008A3EBE /* Essence-精华 */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D1B1CA7B7AE008A3EBE /* Controller */,
+				A1E55D1E1CA7B7AE008A3EBE /* Model */,
+				A1E55D1F1CA7B7AE008A3EBE /* View */,
+			);
+			path = "Essence-精华";
+			sourceTree = "<group>";
+		};
+		A1E55D1B1CA7B7AE008A3EBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D1C1CA7B7AE008A3EBE /* ZDFEssenceViewController.h */,
+				A1E55D1D1CA7B7AE008A3EBE /* ZDFEssenceViewController.m */,
+				18524EEB1CAD2B150045C502 /* ZDFRecommendTagsController.h */,
+				18524EEC1CAD2B150045C502 /* ZDFRecommendTagsController.m */,
+				1813B42C1CAF8A6800AF69EA /* ZDFAllViewController.h */,
+				1813B42D1CAF8A6800AF69EA /* ZDFAllViewController.m */,
+				1813B42F1CAF8A8100AF69EA /* ZDFVideoViewController.h */,
+				1813B4301CAF8A8100AF69EA /* ZDFVideoViewController.m */,
+				1813B4321CAF8A9600AF69EA /* ZDFVoiceViewController.h */,
+				1813B4331CAF8A9600AF69EA /* ZDFVoiceViewController.m */,
+				1813B4351CAF8AA700AF69EA /* ZDFPictureViewController.h */,
+				1813B4361CAF8AA700AF69EA /* ZDFPictureViewController.m */,
+				1813B4381CAF8AB400AF69EA /* ZDFWorkViewController.h */,
+				1813B4391CAF8AB400AF69EA /* ZDFWorkViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1E55D1E1CA7B7AE008A3EBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18524EEE1CAD2D6A0045C502 /* ZDFTagModel.h */,
+				18524EEF1CAD2D6A0045C502 /* ZDFTagModel.m */,
+				1813B43B1CAFAB1C00AF69EA /* ZDFTopic.h */,
+				1813B43C1CAFAB1C00AF69EA /* ZDFTopic.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1E55D1F1CA7B7AE008A3EBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18524EF11CAD2ED20045C502 /* ZDFTagsCell.h */,
+				18524EF21CAD2ED20045C502 /* ZDFTagsCell.m */,
+				18524EF31CAD2ED20045C502 /* ZDFTagsCell.xib */,
+				1813B4411CAFBC8E00AF69EA /* ZDFTopicCell.h */,
+				1813B4421CAFBC8E00AF69EA /* ZDFTopicCell.m */,
+				1813B4431CAFBC8E00AF69EA /* ZDFTopicCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1E55D201CA7B7AE008A3EBE /* FriendTrends-关注 */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D211CA7B7AE008A3EBE /* Controller */,
+				A1E55D241CA7B7AE008A3EBE /* Model */,
+				A1E55D251CA7B7AE008A3EBE /* View */,
+			);
+			path = "FriendTrends-关注";
+			sourceTree = "<group>";
+		};
+		A1E55D211CA7B7AE008A3EBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D221CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.h */,
+				A1E55D231CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.m */,
+				A1E55D521CA7D05A008A3EBE /* ZDFFriendTrendsViewController.xib */,
+				A1E55D541CA7DC54008A3EBE /* ZDFRecommendController.h */,
+				A1E55D551CA7DC54008A3EBE /* ZDFRecommendController.m */,
+				A1E55D561CA7DC54008A3EBE /* ZDFRecommendController.xib */,
+				186DA5D91CAE35C200262B3D /* ZDFLoginRegisterController.h */,
+				186DA5DA1CAE35C200262B3D /* ZDFLoginRegisterController.m */,
+				186DA5DB1CAE35C200262B3D /* ZDFLoginRegisterController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1E55D241CA7B7AE008A3EBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1811CD3D1CA91EA00034960C /* ZDFRecommendType.h */,
+				1811CD3E1CA91EA00034960C /* ZDFRecommendType.m */,
+				1811CD4A1CA938B00034960C /* ZDFRecommendUser.h */,
+				1811CD4B1CA938B00034960C /* ZDFRecommendUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1E55D251CA7B7AE008A3EBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1811CD401CA9229E0034960C /* ZDFRecommendCategoriesCell.h */,
+				1811CD411CA9229E0034960C /* ZDFRecommendCategoriesCell.m */,
+				1811CD421CA9229E0034960C /* ZDFRecommendCategoriesCell.xib */,
+				1811CD451CA935A40034960C /* ZDFUserCell.h */,
+				1811CD461CA935A40034960C /* ZDFUserCell.m */,
+				1811CD471CA935A40034960C /* ZDFUserCell.xib */,
+				186DA5DE1CAE459200262B3D /* ZDFVerticalButton.h */,
+				186DA5DF1CAE459200262B3D /* ZDFVerticalButton.m */,
+				18404CEF1CAE75940049D579 /* ZDFCustomTextField.h */,
+				18404CF01CAE75940049D579 /* ZDFCustomTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1E55D261CA7B7AE008A3EBE /* Me-我 */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D271CA7B7AE008A3EBE /* Controller */,
+				A1E55D2A1CA7B7AE008A3EBE /* Model */,
+				A1E55D2B1CA7B7AE008A3EBE /* View */,
+			);
+			path = "Me-我";
+			sourceTree = "<group>";
+		};
+		A1E55D271CA7B7AE008A3EBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D281CA7B7AE008A3EBE /* ZDFMeViewController.h */,
+				A1E55D291CA7B7AE008A3EBE /* ZDFMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1E55D2A1CA7B7AE008A3EBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1E55D2B1CA7B7AE008A3EBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1E55D2C1CA7B7AE008A3EBE /* New-新帖 */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D2D1CA7B7AE008A3EBE /* Controller */,
+				A1E55D301CA7B7AE008A3EBE /* Model */,
+				A1E55D311CA7B7AE008A3EBE /* View */,
+			);
+			path = "New-新帖";
+			sourceTree = "<group>";
+		};
+		A1E55D2D1CA7B7AE008A3EBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D2E1CA7B7AE008A3EBE /* ZDFNewViewController.h */,
+				A1E55D2F1CA7B7AE008A3EBE /* ZDFNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1E55D301CA7B7AE008A3EBE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A1E55D311CA7B7AE008A3EBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A1E55D321CA7B7AE008A3EBE /* Other-其他 */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D3F1CA7B7AE008A3EBE /* View */,
+				A1E55D3A1CA7B7AE008A3EBE /* Controller */,
+				A1E55D351CA7B7AE008A3EBE /* Category */,
+				A1E55D331CA7B7AE008A3EBE /* AppDelegate.h */,
+				A1E55D341CA7B7AE008A3EBE /* AppDelegate.m */,
+				A1E55D3D1CA7B7AE008A3EBE /* main.m */,
+				A1E55D3E1CA7B7AE008A3EBE /* PrefixHeader.pch */,
+				1813B43E1CAFB87F00AF69EA /* ZDFConst.h */,
+				1813B43F1CAFB87F00AF69EA /* ZDFConst.m */,
+			);
+			path = "Other-其他";
+			sourceTree = "<group>";
+		};
+		A1E55D351CA7B7AE008A3EBE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				18A55E931CB38EC200307D37 /* NSDate+ZDFExtension.h */,
+				18A55E941CB38EC200307D37 /* NSDate+ZDFExtension.m */,
+				A1E55D361CA7B7AE008A3EBE /* UIBarButtonItem+ZDFExtension.h */,
+				A1E55D371CA7B7AE008A3EBE /* UIBarButtonItem+ZDFExtension.m */,
+				A1E55D381CA7B7AE008A3EBE /* UIView+ZDFViewExtension.h */,
+				A1E55D391CA7B7AE008A3EBE /* UIView+ZDFViewExtension.m */,
+				1811CD3B1CA919C30034960C /* Foundation+Log.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A1E55D3A1CA7B7AE008A3EBE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D3B1CA7B7AE008A3EBE /* ZDFTabBarController.h */,
+				A1E55D3C1CA7B7AE008A3EBE /* ZDFTabBarController.m */,
+				A1E55D4F1CA7C095008A3EBE /* ZDFNavigationController.h */,
+				A1E55D501CA7C095008A3EBE /* ZDFNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A1E55D3F1CA7B7AE008A3EBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A1E55D401CA7B7AE008A3EBE /* ZDFTabBar.h */,
+				A1E55D411CA7B7AE008A3EBE /* ZDFTabBar.m */,
+				1813B4241CAF660C00AF69EA /* ZDFPushGuideView.h */,
+				1813B4251CAF660C00AF69EA /* ZDFPushGuideView.m */,
+				1813B4271CAF662600AF69EA /* ZDFPushGuideView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D18B2C8067D19CADE1B6006A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC8511578C6A105322288751 /* Pods.debug.xcconfig */,
+				E405697EE43F6B2AF67E7FA9 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18BE29E91CA68002002C1445 /* 百思不得姐 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BE2A171CA68002002C1445 /* Build configuration list for PBXNativeTarget "百思不得姐" */;
+			buildPhases = (
+				3643837B80F54B9CF860B00B /* Check Pods Manifest.lock */,
+				18BE29E61CA68002002C1445 /* Sources */,
+				18BE29E71CA68002002C1445 /* Frameworks */,
+				18BE29E81CA68002002C1445 /* Resources */,
+				EE136B04F8CA208734CD1261 /* Embed Pods Frameworks */,
+				7B86540A479FFEA07BF3BEC0 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "百思不得姐";
+			productName = "百思不得姐";
+			productReference = 18BE29EA1CA68002002C1445 /* 百思不得姐.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18BE2A021CA68002002C1445 /* 百思不得姐Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BE2A1A1CA68002002C1445 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */;
+			buildPhases = (
+				18BE29FF1CA68002002C1445 /* Sources */,
+				18BE2A001CA68002002C1445 /* Frameworks */,
+				18BE2A011CA68002002C1445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BE2A051CA68002002C1445 /* PBXTargetDependency */,
+			);
+			name = "百思不得姐Tests";
+			productName = "百思不得姐Tests";
+			productReference = 18BE2A031CA68002002C1445 /* 百思不得姐Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18BE2A0D1CA68002002C1445 /* 百思不得姐UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18BE2A1D1CA68002002C1445 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */;
+			buildPhases = (
+				18BE2A0A1CA68002002C1445 /* Sources */,
+				18BE2A0B1CA68002002C1445 /* Frameworks */,
+				18BE2A0C1CA68002002C1445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18BE2A101CA68002002C1445 /* PBXTargetDependency */,
+			);
+			name = "百思不得姐UITests";
+			productName = "百思不得姐UITests";
+			productReference = 18BE2A0E1CA68002002C1445 /* 百思不得姐UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18BE29E21CA68001002C1445 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ZDF;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = oxxther;
+				TargetAttributes = {
+					18BE29E91CA68002002C1445 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					18BE2A021CA68002002C1445 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 18BE29E91CA68002002C1445;
+					};
+					18BE2A0D1CA68002002C1445 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 18BE29E91CA68002002C1445;
+					};
+				};
+			};
+			buildConfigurationList = 18BE29E51CA68001002C1445 /* Build configuration list for PBXProject "百思不得姐" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18BE29E11CA68001002C1445;
+			productRefGroup = 18BE29EB1CA68002002C1445 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18BE29E91CA68002002C1445 /* 百思不得姐 */,
+				18BE2A021CA68002002C1445 /* 百思不得姐Tests */,
+				18BE2A0D1CA68002002C1445 /* 百思不得姐UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18BE29E81CA68002002C1445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE29FA1CA68002002C1445 /* Assets.xcassets in Resources */,
+				A1E55D531CA7D05A008A3EBE /* ZDFFriendTrendsViewController.xib in Resources */,
+				1813B4281CAF662600AF69EA /* ZDFPushGuideView.xib in Resources */,
+				1811CD491CA935A40034960C /* ZDFUserCell.xib in Resources */,
+				A1E55D581CA7DC54008A3EBE /* ZDFRecommendController.xib in Resources */,
+				1811CD441CA9229E0034960C /* ZDFRecommendCategoriesCell.xib in Resources */,
+				186DA5DD1CAE35C200262B3D /* ZDFLoginRegisterController.xib in Resources */,
+				1813B4451CAFBC8E00AF69EA /* ZDFTopicCell.xib in Resources */,
+				18524EF51CAD2ED20045C502 /* ZDFTagsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE2A011CA68002002C1445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE2A0C1CA68002002C1445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3643837B80F54B9CF860B00B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7B86540A479FFEA07BF3BEC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE136B04F8CA208734CD1261 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18BE29E61CA68002002C1445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E55D481CA7B7AE008A3EBE /* UIView+ZDFViewExtension.m in Sources */,
+				1813B4311CAF8A8100AF69EA /* ZDFVideoViewController.m in Sources */,
+				A1E55D511CA7C095008A3EBE /* ZDFNavigationController.m in Sources */,
+				1813B4261CAF660C00AF69EA /* ZDFPushGuideView.m in Sources */,
+				1813B4371CAF8AA700AF69EA /* ZDFPictureViewController.m in Sources */,
+				A1E55D421CA7B7AE008A3EBE /* ZDFEssenceViewController.m in Sources */,
+				A1E55D441CA7B7AE008A3EBE /* ZDFMeViewController.m in Sources */,
+				A1E55D451CA7B7AE008A3EBE /* ZDFNewViewController.m in Sources */,
+				1813B43D1CAFAB1C00AF69EA /* ZDFTopic.m in Sources */,
+				A1E55D571CA7DC54008A3EBE /* ZDFRecommendController.m in Sources */,
+				A1E55D491CA7B7AE008A3EBE /* ZDFTabBarController.m in Sources */,
+				1813B43A1CAF8AB400AF69EA /* ZDFWorkViewController.m in Sources */,
+				1813B4441CAFBC8E00AF69EA /* ZDFTopicCell.m in Sources */,
+				1811CD3F1CA91EA00034960C /* ZDFRecommendType.m in Sources */,
+				18524EF01CAD2D6A0045C502 /* ZDFTagModel.m in Sources */,
+				18524EED1CAD2B150045C502 /* ZDFRecommendTagsController.m in Sources */,
+				A1E55D471CA7B7AE008A3EBE /* UIBarButtonItem+ZDFExtension.m in Sources */,
+				18A55E951CB38EC200307D37 /* NSDate+ZDFExtension.m in Sources */,
+				186DA5DC1CAE35C200262B3D /* ZDFLoginRegisterController.m in Sources */,
+				18524EF41CAD2ED20045C502 /* ZDFTagsCell.m in Sources */,
+				A1E55D4B1CA7B7AE008A3EBE /* ZDFTabBar.m in Sources */,
+				1813B4401CAFB87F00AF69EA /* ZDFConst.m in Sources */,
+				A1E55D431CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.m in Sources */,
+				1811CD481CA935A40034960C /* ZDFUserCell.m in Sources */,
+				186DA5E01CAE459200262B3D /* ZDFVerticalButton.m in Sources */,
+				1811CD4C1CA938B00034960C /* ZDFRecommendUser.m in Sources */,
+				1811CD431CA9229E0034960C /* ZDFRecommendCategoriesCell.m in Sources */,
+				1813B4341CAF8A9600AF69EA /* ZDFVoiceViewController.m in Sources */,
+				1811CD3C1CA919C30034960C /* Foundation+Log.m in Sources */,
+				18404CF11CAE75940049D579 /* ZDFCustomTextField.m in Sources */,
+				A1E55D4A1CA7B7AE008A3EBE /* main.m in Sources */,
+				A1E55D461CA7B7AE008A3EBE /* AppDelegate.m in Sources */,
+				1813B42E1CAF8A6800AF69EA /* ZDFAllViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE29FF1CA68002002C1445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE2A081CA68002002C1445 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18BE2A0A1CA68002002C1445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BE2A131CA68002002C1445 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18BE2A051CA68002002C1445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BE29E91CA68002002C1445 /* 百思不得姐 */;
+			targetProxy = 18BE2A041CA68002002C1445 /* PBXContainerItemProxy */;
+		};
+		18BE2A101CA68002002C1445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18BE29E91CA68002002C1445 /* 百思不得姐 */;
+			targetProxy = 18BE2A0F1CA68002002C1445 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18BE2A151CA68002002C1445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18BE2A161CA68002002C1445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18BE2A181CA68002002C1445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC8511578C6A105322288751 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Classes/Other-其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oxxther.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		18BE2A191CA68002002C1445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E405697EE43F6B2AF67E7FA9 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/百思不得姐/Classes/Other-其他/PrefixHeader.pch";
+				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oxxther.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		18BE2A1B1CA68002002C1445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oxxther.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Debug;
+		};
+		18BE2A1C1CA68002002C1445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "百思不得姐Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oxxther.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/百思不得姐.app/百思不得姐";
+			};
+			name = Release;
+		};
+		18BE2A1E1CA68002002C1445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oxxther.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		18BE2A1F1CA68002002C1445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "百思不得姐UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oxxther.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "百思不得姐";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18BE29E51CA68001002C1445 /* Build configuration list for PBXProject "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE2A151CA68002002C1445 /* Debug */,
+				18BE2A161CA68002002C1445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BE2A171CA68002002C1445 /* Build configuration list for PBXNativeTarget "百思不得姐" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE2A181CA68002002C1445 /* Debug */,
+				18BE2A191CA68002002C1445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BE2A1A1CA68002002C1445 /* Build configuration list for PBXNativeTarget "百思不得姐Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE2A1B1CA68002002C1445 /* Debug */,
+				18BE2A1C1CA68002002C1445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18BE2A1D1CA68002002C1445 /* Build configuration list for PBXNativeTarget "百思不得姐UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18BE2A1E1CA68002002C1445 /* Debug */,
+				18BE2A1F1CA68002002C1445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18BE29E21CA68001002C1445 /* Project object */;
+}

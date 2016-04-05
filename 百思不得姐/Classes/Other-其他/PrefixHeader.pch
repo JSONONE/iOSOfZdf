@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by apple on 16/3/26.
+//  Copyright © 2016年 oxxther. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+ZDFViewExtension.h"
+#import "UIBarButtonItem+ZDFExtension.h"
+#import "ZDFConst.h"
+#import "NSDate+ZDFExtension.h"
+
+#ifdef DEBUG
+#define ZDFLog(...) NSLog(__VA_ARGS__)
+#else
+#define ZDFLog(...)
+#endif
+
+#define ZDFLogFunc ZDFLog(@"%s",__func__);
+
+//使用宏来方便颜色设定
+#define ZDFRGBColor(r,g,b) [UIColor colorWithRed:(r)/255. green:(g)/255. blue:(b)/255. alpha:1.]
+
+#define ZDFGlobalRGBColor ZDFRGBColor(223,223,223)
+
+#endif /* PrefixHeader_pch */
