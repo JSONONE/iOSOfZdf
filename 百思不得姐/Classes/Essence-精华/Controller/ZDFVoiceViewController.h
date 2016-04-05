@@ -6,8 +6,8 @@
 //  Copyright © 2016年 oxxther. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "ZDFBaseController.h"
 
-@interface ZDFVoiceViewController : UITableViewController
+@interface ZDFVoiceViewController : ZDFBaseController
 
 @end

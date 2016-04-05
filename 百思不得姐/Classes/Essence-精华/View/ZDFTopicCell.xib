@@ -153,6 +153,14 @@
                             <constraint firstItem="urx-Hf-0U9" firstAttribute="top" secondItem="LJH-TW-lz9" secondAttribute="bottom" id="z9b-45-X0s"/>
                         </constraints>
                     </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile_AddV_authen" translatesAutoresizingMaskIntoConstraints="NO" id="uuf-yX-Axa" userLabel="Vip">
+                        <rect key="frame" x="51" y="51" width="14" height="14"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="14" id="TI9-PG-7kb"/>
+                            <constraint firstAttribute="height" constant="14" id="q28-dO-8if"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <animations/>
                 <constraints>
@@ -166,7 +174,9 @@
                     <constraint firstItem="6z1-PW-jlg" firstAttribute="leading" secondItem="QR1-ow-Hvv" secondAttribute="leading" id="dJ2-1U-Wub"/>
                     <constraint firstItem="yFr-y4-yEL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gOh-sF-9kf"/>
                     <constraint firstItem="QR1-ow-Hvv" firstAttribute="top" secondItem="yFr-y4-yEL" secondAttribute="top" id="uFY-7z-19I"/>
+                    <constraint firstItem="uuf-yX-Axa" firstAttribute="trailing" secondItem="yFr-y4-yEL" secondAttribute="trailing" constant="5" id="uK3-1j-3zT"/>
                     <constraint firstItem="bVt-Fh-ago" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vAY-P2-Gh7"/>
+                    <constraint firstItem="uuf-yX-Axa" firstAttribute="bottom" secondItem="yFr-y4-yEL" secondAttribute="bottom" constant="5" id="xcm-Yr-Z8i"/>
                 </constraints>
             </tableViewCellContentView>
             <animations/>
@@ -177,12 +187,14 @@
                 <outlet property="headerImage" destination="yFr-y4-yEL" id="uAT-c2-d6h"/>
                 <outlet property="nameLabel" destination="QR1-ow-Hvv" id="fmo-A8-DdY"/>
                 <outlet property="pinglun" destination="ZR3-Ov-uJE" id="LyR-5D-RgF"/>
+                <outlet property="sina_vImage" destination="uuf-yX-Axa" id="a6X-Ah-jsq"/>
                 <outlet property="timeLabel" destination="6z1-PW-jlg" id="V9L-Xv-HpX"/>
             </connections>
             <point key="canvasLocation" x="381" y="313"/>
         </tableViewCell>
     </objects>
     <resources>
+        <image name="Profile_AddV_authen" width="14" height="14"/>
         <image name="cell-button-line" width="1" height="29"/>
         <image name="cellFollowClickIcon" width="19" height="20"/>
         <image name="cellFollowIcon" width="19" height="20"/>

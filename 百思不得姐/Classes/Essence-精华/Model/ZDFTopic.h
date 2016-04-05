@@ -41,4 +41,9 @@
  *  评论
  */
 @property (nonatomic,assign) NSInteger comment;
+/**
+ *  新浪加V
+ */
+@property (nonatomic,assign,getter=isSina_v) BOOL sina_v;
+
 @end

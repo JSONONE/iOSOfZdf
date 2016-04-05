@@ -34,6 +34,7 @@
 		186DA5DD1CAE35C200262B3D /* ZDFLoginRegisterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186DA5DB1CAE35C200262B3D /* ZDFLoginRegisterController.xib */; };
 		186DA5E01CAE459200262B3D /* ZDFVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 186DA5DF1CAE459200262B3D /* ZDFVerticalButton.m */; };
 		18A55E951CB38EC200307D37 /* NSDate+ZDFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A55E941CB38EC200307D37 /* NSDate+ZDFExtension.m */; };
+		18A55E981CB3A06C00307D37 /* ZDFBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A55E971CB3A06C00307D37 /* ZDFBaseController.m */; };
 		18BE29FA1CA68002002C1445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BE29F91CA68002002C1445 /* Assets.xcassets */; };
 		18BE2A081CA68002002C1445 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2A071CA68002002C1445 /* _____Tests.m */; };
 		18BE2A131CA68002002C1445 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2A121CA68002002C1445 /* _____UITests.m */; };
@@ -119,6 +120,8 @@
 		186DA5DF1CAE459200262B3D /* ZDFVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFVerticalButton.m; sourceTree = "<group>"; };
 		18A55E931CB38EC200307D37 /* NSDate+ZDFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+ZDFExtension.h"; sourceTree = "<group>"; };
 		18A55E941CB38EC200307D37 /* NSDate+ZDFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+ZDFExtension.m"; sourceTree = "<group>"; };
+		18A55E961CB3A06C00307D37 /* ZDFBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFBaseController.h; sourceTree = "<group>"; };
+		18A55E971CB3A06C00307D37 /* ZDFBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFBaseController.m; sourceTree = "<group>"; };
 		18BE29EA1CA68002002C1445 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BE29F91CA68002002C1445 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BE29FE1CA68002002C1445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -290,6 +293,8 @@
 				1813B4361CAF8AA700AF69EA /* ZDFPictureViewController.m */,
 				1813B4381CAF8AB400AF69EA /* ZDFWorkViewController.h */,
 				1813B4391CAF8AB400AF69EA /* ZDFWorkViewController.m */,
+				18A55E961CB3A06C00307D37 /* ZDFBaseController.h */,
+				18A55E971CB3A06C00307D37 /* ZDFBaseController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -701,6 +706,7 @@
 				A1E55D491CA7B7AE008A3EBE /* ZDFTabBarController.m in Sources */,
 				1813B43A1CAF8AB400AF69EA /* ZDFWorkViewController.m in Sources */,
 				1813B4441CAFBC8E00AF69EA /* ZDFTopicCell.m in Sources */,
+				18A55E981CB3A06C00307D37 /* ZDFBaseController.m in Sources */,
 				1811CD3F1CA91EA00034960C /* ZDFRecommendType.m in Sources */,
 				18524EF01CAD2D6A0045C502 /* ZDFTagModel.m in Sources */,
 				18524EED1CAD2B150045C502 /* ZDFRecommendTagsController.m in Sources */,
