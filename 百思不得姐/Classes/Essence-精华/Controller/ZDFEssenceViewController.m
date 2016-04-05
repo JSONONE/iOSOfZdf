@@ -9,11 +9,7 @@
 #import "ZDFEssenceViewController.h"
 #import "ZDFRecommendTagsController.h"
 
-#import "ZDFAllViewController.h"
-#import "ZDFVoiceViewController.h"
-#import "ZDFVideoViewController.h"
-#import "ZDFPictureViewController.h"
-#import "ZDFWorkViewController.h"
+#import "ZDFBaseController.h"
 
 
 @interface ZDFEssenceViewController ()<UIScrollViewDelegate>
@@ -44,24 +40,29 @@
 }
 
 - (void)setupChildViewController{
-    ZDFWorkViewController *word = [[ZDFWorkViewController alloc] init];
+    ZDFBaseController *word = [[ZDFBaseController alloc] init];
     word.title = @"段子";
+    word.type = ZDFBaseTypeWord;
     [self addChildViewController:word];
     
-    ZDFAllViewController *all = [[ZDFAllViewController alloc] init];
+    ZDFBaseController *all = [[ZDFBaseController alloc] init];
     all.title = @"全部";
+    all.type = ZDFBaseTypeAll;
     [self addChildViewController:all];
     
-    ZDFPictureViewController *picture = [[ZDFPictureViewController alloc] init];
+    ZDFBaseController *picture = [[ZDFBaseController alloc] init];
     picture.title = @"图片";
+    picture.type = ZDFBaseTypePicture;
     [self addChildViewController:picture];
     
-    ZDFVideoViewController *video = [[ZDFVideoViewController alloc] init];
+    ZDFBaseController *video = [[ZDFBaseController alloc] init];
     video.title = @"视频";
+    video.type = ZDFBaseTypeVideo;
     [self addChildViewController:video];
     
-    ZDFVoiceViewController *voice = [[ZDFVoiceViewController alloc] init];
+    ZDFBaseController *voice = [[ZDFBaseController alloc] init];
     voice.title = @"声音";
+    voice.type = ZDFBaseTypeVoice;
     [self addChildViewController:voice];
 }
 

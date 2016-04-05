@@ -6,7 +6,7 @@
 //  Copyright © 2016年 oxxther. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface ZDFTopic : NSObject
 /**
@@ -46,4 +46,9 @@
  */
 @property (nonatomic,assign,getter=isSina_v) BOOL sina_v;
 
+
+/**
+ *  额外的辅助属性
+ */
+@property (nonatomic,assign,readonly) CGFloat cellHeight;
 @end

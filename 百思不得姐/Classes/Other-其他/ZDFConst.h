@@ -10,3 +10,15 @@
 
 UIKIT_EXTERN CGFloat const ZDFTitleViewH;
 UIKIT_EXTERN CGFloat const ZDFTitleViewY;
+/**
+ *  文字内容Y值
+ */
+UIKIT_EXTERN CGFloat const ZDFTopicCellTextY;
+/**
+ *  cell中底部bar高度
+ */
+UIKIT_EXTERN CGFloat const ZDFTopicCellBottomBarH;
+/**
+ *  cell的间距
+ */
+UIKIT_EXTERN CGFloat const ZDFTopicCellMargin;

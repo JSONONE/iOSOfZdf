@@ -17,8 +17,6 @@
 @interface ZDFBaseController ()
 
 @property (nonatomic,strong) NSMutableArray *topics;
-
-
 /**
  *  当前页码
  */
@@ -83,7 +81,7 @@ static NSString * const ZDFTopicCellID = @"Topic";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
-    params[@"type"] = @"29";
+    params[@"type"] = @(self.type);
     self.param = params;
     
     [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:nil success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
@@ -113,7 +111,7 @@ static NSString * const ZDFTopicCellID = @"Topic";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"data";
-    params[@"type"] = @"29";
+    params[@"type"] = @(self.type);
     params[@"page"] = @(self.page);
     params[@"maxtime"] = self.maxtime;
     self.param = params;
@@ -158,7 +156,9 @@ static NSString * const ZDFTopicCellID = @"Topic";
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 200;
+    
+    ZDFTopic *topic = self.topics[indexPath.row];
+    return topic.cellHeight;
 }
 
 @end

@@ -161,6 +161,13 @@
                             <constraint firstAttribute="height" constant="14" id="q28-dO-8if"/>
                         </constraints>
                     </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVF-i5-172" userLabel="content">
+                        <rect key="frame" x="10" y="70" width="300" height="17"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
                 <animations/>
                 <constraints>
@@ -171,11 +178,14 @@
                     <constraint firstItem="6z1-PW-jlg" firstAttribute="bottom" secondItem="yFr-y4-yEL" secondAttribute="bottom" id="ML4-nZ-LF8"/>
                     <constraint firstItem="1Im-Or-p1K" firstAttribute="top" secondItem="QR1-ow-Hvv" secondAttribute="top" id="OXj-lP-SKZ"/>
                     <constraint firstAttribute="trailing" secondItem="bVt-Fh-ago" secondAttribute="trailing" id="P1z-Ks-kIz"/>
+                    <constraint firstItem="NVF-i5-172" firstAttribute="trailing" secondItem="1Im-Or-p1K" secondAttribute="trailing" id="btJ-ac-gIG"/>
                     <constraint firstItem="6z1-PW-jlg" firstAttribute="leading" secondItem="QR1-ow-Hvv" secondAttribute="leading" id="dJ2-1U-Wub"/>
                     <constraint firstItem="yFr-y4-yEL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="gOh-sF-9kf"/>
+                    <constraint firstItem="NVF-i5-172" firstAttribute="leading" secondItem="yFr-y4-yEL" secondAttribute="leading" id="iEu-Gr-IkQ"/>
                     <constraint firstItem="QR1-ow-Hvv" firstAttribute="top" secondItem="yFr-y4-yEL" secondAttribute="top" id="uFY-7z-19I"/>
                     <constraint firstItem="uuf-yX-Axa" firstAttribute="trailing" secondItem="yFr-y4-yEL" secondAttribute="trailing" constant="5" id="uK3-1j-3zT"/>
                     <constraint firstItem="bVt-Fh-ago" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="vAY-P2-Gh7"/>
+                    <constraint firstItem="NVF-i5-172" firstAttribute="top" secondItem="yFr-y4-yEL" secondAttribute="bottom" constant="10" id="xBl-QR-xWG"/>
                     <constraint firstItem="uuf-yX-Axa" firstAttribute="bottom" secondItem="yFr-y4-yEL" secondAttribute="bottom" constant="5" id="xcm-Yr-Z8i"/>
                 </constraints>
             </tableViewCellContentView>
@@ -188,6 +198,7 @@
                 <outlet property="nameLabel" destination="QR1-ow-Hvv" id="fmo-A8-DdY"/>
                 <outlet property="pinglun" destination="ZR3-Ov-uJE" id="LyR-5D-RgF"/>
                 <outlet property="sina_vImage" destination="uuf-yX-Axa" id="a6X-Ah-jsq"/>
+                <outlet property="text_label" destination="NVF-i5-172" id="VW4-vW-Ypc"/>
                 <outlet property="timeLabel" destination="6z1-PW-jlg" id="V9L-Xv-HpX"/>
             </connections>
             <point key="canvasLocation" x="381" y="313"/>

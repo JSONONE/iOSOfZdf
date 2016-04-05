@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *fenxiang;
 @property (weak, nonatomic) IBOutlet UIButton *pinglun;
 @property (weak, nonatomic) IBOutlet UIImageView *sina_vImage;
+@property (weak, nonatomic) IBOutlet UILabel *text_label;
 
 @end
 
@@ -41,6 +42,7 @@
     self.nameLabel.text = topic.name;
     self.timeLabel.text = topic.create_time;
     self.sina_vImage.hidden = !topic.isSina_v;
+    self.text_label.text = topic.text;
     // 设置按钮文字
     [self setupButtonTitle:self.ding count:topic.ding placeholder:@"顶"];
     [self setupButtonTitle:self.cai count:topic.cai placeholder:@"踩"];
@@ -62,12 +64,10 @@
 }
 
 - (void)setFrame:(CGRect)frame{
-    static CGFloat margin = 10;
-    
-    frame.origin.x = margin;
+    frame.origin.x = ZDFTopicCellMargin;
     frame.size.width -= 2*frame.origin.x;
-    frame.size.height -=margin;
-    frame.origin.y += margin;
+    frame.size.height -= ZDFTopicCellMargin ;
+    frame.origin.y += ZDFTopicCellMargin;
     
     [super setFrame:frame];
 }

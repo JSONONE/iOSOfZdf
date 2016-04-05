@@ -7,7 +7,23 @@
 //
 
 #import "ZDFConst.h"
-
+/**
+ *  精华title的高
+ */
 CGFloat const ZDFTitleViewH = 35;
+/**
+ *  精华title的Y值
+ */
 CGFloat const ZDFTitleViewY = 64;
-
+/**
+ *  文字内容Y值
+ */
+CGFloat const ZDFTopicCellTextY = 70;
+/**
+ *  cell中底部bar高度
+ */
+CGFloat const ZDFTopicCellBottomBarH = 44;
+/**
+ *  cell的间距
+ */
+CGFloat const ZDFTopicCellMargin = 10;

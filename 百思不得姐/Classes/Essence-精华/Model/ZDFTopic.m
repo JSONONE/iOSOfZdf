@@ -8,7 +8,27 @@
 
 #import "ZDFTopic.h"
 
+@interface ZDFTopic ()
+{
+     CGFloat _cellHeight;
+}
+@end
+
 @implementation ZDFTopic
+
+- (CGFloat)cellHeight{
+    
+    if (!_cellHeight) {
+        CGSize maxSize = CGSizeMake([UIScreen mainScreen].bounds.size.width - 4 * ZDFTopicCellMargin, MAXFLOAT);
+        //计算文字高度
+        CGFloat textH = [self.text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:14]} context:nil].size.height;
+        
+        _cellHeight = ZDFTopicCellTextY + textH + ZDFTopicCellMargin * 2 + ZDFTopicCellBottomBarH;
+
+    }
+    
+    return _cellHeight;
+}
 
 - (NSString *)create_time
 {

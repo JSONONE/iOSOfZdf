@@ -16,11 +16,6 @@
 		1811CD4C1CA938B00034960C /* ZDFRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 1811CD4B1CA938B00034960C /* ZDFRecommendUser.m */; };
 		1813B4261CAF660C00AF69EA /* ZDFPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4251CAF660C00AF69EA /* ZDFPushGuideView.m */; };
 		1813B4281CAF662600AF69EA /* ZDFPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1813B4271CAF662600AF69EA /* ZDFPushGuideView.xib */; };
-		1813B42E1CAF8A6800AF69EA /* ZDFAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B42D1CAF8A6800AF69EA /* ZDFAllViewController.m */; };
-		1813B4311CAF8A8100AF69EA /* ZDFVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4301CAF8A8100AF69EA /* ZDFVideoViewController.m */; };
-		1813B4341CAF8A9600AF69EA /* ZDFVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4331CAF8A9600AF69EA /* ZDFVoiceViewController.m */; };
-		1813B4371CAF8AA700AF69EA /* ZDFPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4361CAF8AA700AF69EA /* ZDFPictureViewController.m */; };
-		1813B43A1CAF8AB400AF69EA /* ZDFWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4391CAF8AB400AF69EA /* ZDFWorkViewController.m */; };
 		1813B43D1CAFAB1C00AF69EA /* ZDFTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B43C1CAFAB1C00AF69EA /* ZDFTopic.m */; };
 		1813B4401CAFB87F00AF69EA /* ZDFConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B43F1CAFB87F00AF69EA /* ZDFConst.m */; };
 		1813B4441CAFBC8E00AF69EA /* ZDFTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1813B4421CAFBC8E00AF69EA /* ZDFTopicCell.m */; };
@@ -87,18 +82,8 @@
 		1813B4241CAF660C00AF69EA /* ZDFPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFPushGuideView.h; sourceTree = "<group>"; };
 		1813B4251CAF660C00AF69EA /* ZDFPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFPushGuideView.m; sourceTree = "<group>"; };
 		1813B4271CAF662600AF69EA /* ZDFPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFPushGuideView.xib; sourceTree = "<group>"; };
-		1813B42C1CAF8A6800AF69EA /* ZDFAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFAllViewController.h; sourceTree = "<group>"; };
-		1813B42D1CAF8A6800AF69EA /* ZDFAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFAllViewController.m; sourceTree = "<group>"; };
-		1813B42F1CAF8A8100AF69EA /* ZDFVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFVideoViewController.h; sourceTree = "<group>"; };
-		1813B4301CAF8A8100AF69EA /* ZDFVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFVideoViewController.m; sourceTree = "<group>"; };
-		1813B4321CAF8A9600AF69EA /* ZDFVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFVoiceViewController.h; sourceTree = "<group>"; };
-		1813B4331CAF8A9600AF69EA /* ZDFVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFVoiceViewController.m; sourceTree = "<group>"; };
-		1813B4351CAF8AA700AF69EA /* ZDFPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFPictureViewController.h; sourceTree = "<group>"; };
-		1813B4361CAF8AA700AF69EA /* ZDFPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFPictureViewController.m; sourceTree = "<group>"; };
-		1813B4381CAF8AB400AF69EA /* ZDFWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFWorkViewController.h; sourceTree = "<group>"; };
-		1813B4391CAF8AB400AF69EA /* ZDFWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFWorkViewController.m; sourceTree = "<group>"; };
 		1813B43B1CAFAB1C00AF69EA /* ZDFTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTopic.h; sourceTree = "<group>"; };
-		1813B43C1CAFAB1C00AF69EA /* ZDFTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFTopic.m; sourceTree = "<group>"; };
+		1813B43C1CAFAB1C00AF69EA /* ZDFTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 5; lastKnownFileType = sourcecode.c.objc; path = ZDFTopic.m; sourceTree = "<group>"; };
 		1813B43E1CAFB87F00AF69EA /* ZDFConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFConst.h; sourceTree = "<group>"; };
 		1813B43F1CAFB87F00AF69EA /* ZDFConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFConst.m; sourceTree = "<group>"; };
 		1813B4411CAFBC8E00AF69EA /* ZDFTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFTopicCell.h; sourceTree = "<group>"; };
@@ -283,16 +268,6 @@
 				A1E55D1D1CA7B7AE008A3EBE /* ZDFEssenceViewController.m */,
 				18524EEB1CAD2B150045C502 /* ZDFRecommendTagsController.h */,
 				18524EEC1CAD2B150045C502 /* ZDFRecommendTagsController.m */,
-				1813B42C1CAF8A6800AF69EA /* ZDFAllViewController.h */,
-				1813B42D1CAF8A6800AF69EA /* ZDFAllViewController.m */,
-				1813B42F1CAF8A8100AF69EA /* ZDFVideoViewController.h */,
-				1813B4301CAF8A8100AF69EA /* ZDFVideoViewController.m */,
-				1813B4321CAF8A9600AF69EA /* ZDFVoiceViewController.h */,
-				1813B4331CAF8A9600AF69EA /* ZDFVoiceViewController.m */,
-				1813B4351CAF8AA700AF69EA /* ZDFPictureViewController.h */,
-				1813B4361CAF8AA700AF69EA /* ZDFPictureViewController.m */,
-				1813B4381CAF8AB400AF69EA /* ZDFWorkViewController.h */,
-				1813B4391CAF8AB400AF69EA /* ZDFWorkViewController.m */,
 				18A55E961CB3A06C00307D37 /* ZDFBaseController.h */,
 				18A55E971CB3A06C00307D37 /* ZDFBaseController.m */,
 			);
@@ -694,17 +669,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E55D481CA7B7AE008A3EBE /* UIView+ZDFViewExtension.m in Sources */,
-				1813B4311CAF8A8100AF69EA /* ZDFVideoViewController.m in Sources */,
 				A1E55D511CA7C095008A3EBE /* ZDFNavigationController.m in Sources */,
 				1813B4261CAF660C00AF69EA /* ZDFPushGuideView.m in Sources */,
-				1813B4371CAF8AA700AF69EA /* ZDFPictureViewController.m in Sources */,
 				A1E55D421CA7B7AE008A3EBE /* ZDFEssenceViewController.m in Sources */,
 				A1E55D441CA7B7AE008A3EBE /* ZDFMeViewController.m in Sources */,
 				A1E55D451CA7B7AE008A3EBE /* ZDFNewViewController.m in Sources */,
 				1813B43D1CAFAB1C00AF69EA /* ZDFTopic.m in Sources */,
 				A1E55D571CA7DC54008A3EBE /* ZDFRecommendController.m in Sources */,
 				A1E55D491CA7B7AE008A3EBE /* ZDFTabBarController.m in Sources */,
-				1813B43A1CAF8AB400AF69EA /* ZDFWorkViewController.m in Sources */,
 				1813B4441CAFBC8E00AF69EA /* ZDFTopicCell.m in Sources */,
 				18A55E981CB3A06C00307D37 /* ZDFBaseController.m in Sources */,
 				1811CD3F1CA91EA00034960C /* ZDFRecommendType.m in Sources */,
@@ -721,12 +693,10 @@
 				186DA5E01CAE459200262B3D /* ZDFVerticalButton.m in Sources */,
 				1811CD4C1CA938B00034960C /* ZDFRecommendUser.m in Sources */,
 				1811CD431CA9229E0034960C /* ZDFRecommendCategoriesCell.m in Sources */,
-				1813B4341CAF8A9600AF69EA /* ZDFVoiceViewController.m in Sources */,
 				1811CD3C1CA919C30034960C /* Foundation+Log.m in Sources */,
 				18404CF11CAE75940049D579 /* ZDFCustomTextField.m in Sources */,
 				A1E55D4A1CA7B7AE008A3EBE /* main.m in Sources */,
 				A1E55D461CA7B7AE008A3EBE /* AppDelegate.m in Sources */,
-				1813B42E1CAF8A6800AF69EA /* ZDFAllViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
