@@ -7,8 +7,12 @@
 //
 
 #import "ZDFRecommendType.h"
-
+#import <MJExtension.h>
 @implementation ZDFRecommendType
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+    return @{@"ID":@"id"};
+}
+
 - (NSMutableArray *)users{
     if (!_users) {
         _users = [NSMutableArray array];

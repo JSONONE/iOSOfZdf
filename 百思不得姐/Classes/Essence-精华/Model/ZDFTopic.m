@@ -7,14 +7,24 @@
 //
 
 #import "ZDFTopic.h"
+#import <MJExtension.h>
 
 @interface ZDFTopic ()
 {
      CGFloat _cellHeight;
+     CGRect _pictureViewFrame;
 }
 @end
 
 @implementation ZDFTopic
+
++ (NSDictionary *)mj_replacedKeyFromPropertyName{
+     return @{
+              @"small_image":@"image0",
+              @"large_image":@"image1",
+              @"middle_image":@"image2"
+              };
+}
 
 - (CGFloat)cellHeight{
     
@@ -25,6 +35,22 @@
         
         _cellHeight = ZDFTopicCellTextY + textH + ZDFTopicCellMargin * 2 + ZDFTopicCellBottomBarH;
 
+         //根据topic的类型来判断
+         if (self.type == ZDFBaseTypePicture) {
+              CGFloat imageW = maxSize.width;
+              CGFloat imageH = imageW * self.height / self.width;
+              
+              if (imageH >= ZDFTopicCellPictureMaxH) {
+                   imageH = ZDFTopicCellPictureFixH;
+                   self.big = YES;
+              }
+              
+              CGFloat imageX = ZDFTopicCellMargin;
+              CGFloat imageY = ZDFTopicCellTextY + textH + ZDFTopicCellMargin;
+              _pictureViewFrame = CGRectMake(imageX, imageY, imageW, imageH);
+              
+              _cellHeight += (imageH + ZDFTopicCellMargin);
+         }
     }
     
     return _cellHeight;

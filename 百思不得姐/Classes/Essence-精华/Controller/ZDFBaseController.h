@@ -8,13 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef enum {
-    ZDFBaseTypeAll = 1,
-    ZDFBaseTypePicture = 10,
-    ZDFBaseTypeWord = 29,
-    ZDFBaseTypeVoice = 31,
-    ZDFBaseTypeVideo = 41
-}ZDFBaseType;
 
 @interface ZDFBaseController : UITableViewController
 

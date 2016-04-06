@@ -158,6 +158,7 @@ static NSString * const ZDFTopicCellID = @"Topic";
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     
     ZDFTopic *topic = self.topics[indexPath.row];
+    //返回cell的高度
     return topic.cellHeight;
 }
 

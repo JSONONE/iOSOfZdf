@@ -27,3 +27,11 @@ CGFloat const ZDFTopicCellBottomBarH = 44;
  *  cell的间距
  */
 CGFloat const ZDFTopicCellMargin = 10;
+/**
+ *  图片帖子的最大高度
+ */
+CGFloat const ZDFTopicCellPictureMaxH = 1000;
+/**
+ *  图片帖子的固定高度
+ */
+CGFloat const ZDFTopicCellPictureFixH = 1000;

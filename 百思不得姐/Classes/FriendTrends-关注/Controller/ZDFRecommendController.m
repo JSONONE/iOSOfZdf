@@ -136,7 +136,7 @@ static NSString * const ZDFUserId = @"User";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"subscribe";
-    params[@"category_id"] = @(type.id);
+    params[@"category_id"] = @(type.ID);
     params[@"page"] = @(type.currentPage);
     self.paramDic = params;
     
@@ -174,7 +174,7 @@ static NSString * const ZDFUserId = @"User";
     NSMutableDictionary *params = [NSMutableDictionary dictionary];
     params[@"a"] = @"list";
     params[@"c"] = @"subscribe";
-    params[@"category_id"] = @(type.id);
+    params[@"category_id"] = @(type.ID);
     params[@"page"] = @(++type.currentPage);
     self.paramDic = params;
     

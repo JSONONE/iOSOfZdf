@@ -39,21 +39,12 @@
     
 }
 
-- (void)setupChildViewController{
-    ZDFBaseController *word = [[ZDFBaseController alloc] init];
-    word.title = @"段子";
-    word.type = ZDFBaseTypeWord;
-    [self addChildViewController:word];
-    
+- (void)setupChildViewController{  
     ZDFBaseController *all = [[ZDFBaseController alloc] init];
     all.title = @"全部";
     all.type = ZDFBaseTypeAll;
     [self addChildViewController:all];
-    
-    ZDFBaseController *picture = [[ZDFBaseController alloc] init];
-    picture.title = @"图片";
-    picture.type = ZDFBaseTypePicture;
-    [self addChildViewController:picture];
+
     
     ZDFBaseController *video = [[ZDFBaseController alloc] init];
     video.title = @"视频";
@@ -64,6 +55,16 @@
     voice.title = @"声音";
     voice.type = ZDFBaseTypeVoice;
     [self addChildViewController:voice];
+    
+    ZDFBaseController *picture = [[ZDFBaseController alloc] init];
+    picture.title = @"图片";
+    picture.type = ZDFBaseTypePicture;
+    [self addChildViewController:picture];
+    
+    ZDFBaseController *word = [[ZDFBaseController alloc] init];
+    word.title = @"段子";
+    word.type = ZDFBaseTypeWord;
+    [self addChildViewController:word];
 }
 
 - (void)setupContentView{

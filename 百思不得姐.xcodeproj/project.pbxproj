@@ -33,6 +33,8 @@
 		18BE29FA1CA68002002C1445 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BE29F91CA68002002C1445 /* Assets.xcassets */; };
 		18BE2A081CA68002002C1445 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2A071CA68002002C1445 /* _____Tests.m */; };
 		18BE2A131CA68002002C1445 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2A121CA68002002C1445 /* _____UITests.m */; };
+		18D9D4D51CB4E2CC006E9EC9 /* ZDFPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D9D4D41CB4E2CC006E9EC9 /* ZDFPictureView.m */; };
+		18D9D4D71CB4E2DE006E9EC9 /* ZDFPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D9D4D61CB4E2DE006E9EC9 /* ZDFPictureView.xib */; };
 		9698FAE9C2950642896DBE53 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EDE839CB2787C31D81496523 /* libPods.a */; };
 		A1E55D421CA7B7AE008A3EBE /* ZDFEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D1D1CA7B7AE008A3EBE /* ZDFEssenceViewController.m */; };
 		A1E55D431CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E55D231CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.m */; };
@@ -116,6 +118,9 @@
 		18BE2A0E1CA68002002C1445 /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BE2A121CA68002002C1445 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		18BE2A141CA68002002C1445 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D9D4D31CB4E2CC006E9EC9 /* ZDFPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFPictureView.h; sourceTree = "<group>"; };
+		18D9D4D41CB4E2CC006E9EC9 /* ZDFPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFPictureView.m; sourceTree = "<group>"; };
+		18D9D4D61CB4E2DE006E9EC9 /* ZDFPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDFPictureView.xib; sourceTree = "<group>"; };
 		A1E55D1C1CA7B7AE008A3EBE /* ZDFEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFEssenceViewController.h; sourceTree = "<group>"; };
 		A1E55D1D1CA7B7AE008A3EBE /* ZDFEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDFEssenceViewController.m; sourceTree = "<group>"; };
 		A1E55D221CA7B7AE008A3EBE /* ZDFFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDFFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -294,6 +299,9 @@
 				1813B4411CAFBC8E00AF69EA /* ZDFTopicCell.h */,
 				1813B4421CAFBC8E00AF69EA /* ZDFTopicCell.m */,
 				1813B4431CAFBC8E00AF69EA /* ZDFTopicCell.xib */,
+				18D9D4D31CB4E2CC006E9EC9 /* ZDFPictureView.h */,
+				18D9D4D41CB4E2CC006E9EC9 /* ZDFPictureView.m */,
+				18D9D4D61CB4E2DE006E9EC9 /* ZDFPictureView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -593,6 +601,7 @@
 				1811CD491CA935A40034960C /* ZDFUserCell.xib in Resources */,
 				A1E55D581CA7DC54008A3EBE /* ZDFRecommendController.xib in Resources */,
 				1811CD441CA9229E0034960C /* ZDFRecommendCategoriesCell.xib in Resources */,
+				18D9D4D71CB4E2DE006E9EC9 /* ZDFPictureView.xib in Resources */,
 				186DA5DD1CAE35C200262B3D /* ZDFLoginRegisterController.xib in Resources */,
 				1813B4451CAFBC8E00AF69EA /* ZDFTopicCell.xib in Resources */,
 				18524EF51CAD2ED20045C502 /* ZDFTagsCell.xib in Resources */,
@@ -674,6 +683,7 @@
 				A1E55D421CA7B7AE008A3EBE /* ZDFEssenceViewController.m in Sources */,
 				A1E55D441CA7B7AE008A3EBE /* ZDFMeViewController.m in Sources */,
 				A1E55D451CA7B7AE008A3EBE /* ZDFNewViewController.m in Sources */,
+				18D9D4D51CB4E2CC006E9EC9 /* ZDFPictureView.m in Sources */,
 				1813B43D1CAFAB1C00AF69EA /* ZDFTopic.m in Sources */,
 				A1E55D571CA7DC54008A3EBE /* ZDFRecommendController.m in Sources */,
 				A1E55D491CA7B7AE008A3EBE /* ZDFTabBarController.m in Sources */,

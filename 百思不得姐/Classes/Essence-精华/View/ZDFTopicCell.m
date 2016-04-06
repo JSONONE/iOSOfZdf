@@ -9,7 +9,7 @@
 #import "ZDFTopicCell.h"
 #import "ZDFTopic.h"
 #import <UIImageView+WebCache.h>
-
+#import "ZDFPictureView.h"
 
 @interface ZDFTopicCell ()
 @property (weak, nonatomic) IBOutlet UIImageView *headerImage;
@@ -22,10 +22,21 @@
 @property (weak, nonatomic) IBOutlet UIImageView *sina_vImage;
 @property (weak, nonatomic) IBOutlet UILabel *text_label;
 
+
+@property (weak,nonatomic) ZDFPictureView *pictureView;
 @end
 
 
 @implementation ZDFTopicCell
+
+- (ZDFPictureView *)pictureView{
+    if (!_pictureView) {
+        ZDFPictureView *picture = [ZDFPictureView pictureView];
+        [self.contentView addSubview:picture];
+        _pictureView = picture;
+    }
+    return _pictureView;
+}
 
 - (void)awakeFromNib{
     UIImageView *bgView = [[UIImageView alloc]init];
@@ -48,6 +59,12 @@
     [self setupButtonTitle:self.cai count:topic.cai placeholder:@"踩"];
     [self setupButtonTitle:self.fenxiang count:topic.repost placeholder:@"分享"];
     [self setupButtonTitle:self.pinglun count:topic.comment placeholder:@"评论"];
+    
+    //根据模型类型
+    if (topic.type == ZDFBaseTypePicture) {
+        self.pictureView.topic = topic;
+        self.pictureView.frame = topic.pictureViewFrame;
+    }
 }
 
 /**
